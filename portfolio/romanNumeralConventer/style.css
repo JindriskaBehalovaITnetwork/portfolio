@@ -1,0 +1,13 @@
+body {
+    background-color: lightskyblue;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+.goldText {
+    color: gold;
+}
+.goldText:hover {
+    color: gold;
+}

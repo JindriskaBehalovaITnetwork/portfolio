@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #414042;
+    background-color: #a0a0eb;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    min-width: 960px;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+article header {
+    height: 80px
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    padding: 10px 0;
+    color: #00386B;
+}
+
+.avatar {
+    float: right;
+    width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1);
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 4px solid #EF6534;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
+}
+
+.cistic {
+    clear: both;
+}
+
+html {
+    background: #414042;
+}
+
+.footer-bg {
+    background-color: #414042;
+}
+.vlevo {
+    float: left;
+}
